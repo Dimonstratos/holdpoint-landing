@@ -1,65 +1,85 @@
-import Image from "next/image";
+export const metadata = {
+  title: "Анонимная поддержка мужчин после развода и измены — Hold-point",
+  description:
+    "Анонимный ИИ-чат поддержки для мужчин в трудный период. Развод, измена, предательство. Бесплатный доступ и консультации специалистов.",
+};
 
-export default function Home() {
+export default function LandingPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main style={{ maxWidth: 760, margin: "0 auto", padding: "32px" }}>
+      {/* HERO */}
+      <h1>Анонимная поддержка для мужчин в трудный период</h1>
+
+      <p>
+        Если вы переживаете развод, измену или предательство — вы не обязаны
+        справляться с этим в одиночку. Hold-point — это безопасный и анонимный
+        онлайн-сервис поддержки.
+      </p>
+
+      <a href="https://holdpoint-pwa.vercel.app">
+        <button style={{ margin: "16px 0" }}>Начать анонимно</button>
+      </a>
+
+      {/* ABOUT */}
+      <h2>Что такое Hold-point</h2>
+      <p>
+        Hold-point — это онлайн-сервис эмоциональной поддержки для мужчин,
+        оказавшихся в сложной жизненной ситуации. В основе сервиса — ИИ-чат,
+        который помогает снизить внутреннее напряжение и получить спокойный,
+        поддерживающий ответ.
+      </p>
+
+      {/* SITUATIONS */}
+      <h2>Когда сервис может быть полезен</h2>
+      <ul>
+        <li>развод или расставание</li>
+        <li>измена партнёра</li>
+        <li>чувство предательства</li>
+        <li>сильный стресс и тревога</li>
+        <li>когда сложно говорить с близкими</li>
+      </ul>
+
+      {/* AI */}
+      <h2>Как работает ИИ-чат поддержки</h2>
+      <p>
+        Вы общаетесь с интеллектуальным чат-ботом, который обучен давать
+        поддерживающие, нейтральные и безопасные ответы. Он не заменяет
+        психолога, но помогает стабилизировать состояние и разобраться в мыслях.
+      </p>
+
+      {/* PAID */}
+      <h2>Дополнительные возможности</h2>
+      <ul>
+        <li>расширенные ИИ-ответы</li>
+        <li>консультации психологов</li>
+        <li>коучинг</li>
+        <li>юридические консультации по разводу и алиментам</li>
+      </ul>
+
+      {/* DISCLAIMER */}
+      <h2>Безопасность и ответственность</h2>
+      <p>
+        Сервис не является медицинской, психологической, психотерапевтической или
+        юридической помощью. Ответы носят информационный и поддерживающий
+        характер.
+      </p>
+
+      <p>
+        В случае угрозы жизни или здоровью, суицидальных мыслей или острого
+        психоэмоционального состояния необходимо незамедлительно обратиться в
+        службы экстренной помощи.
+      </p>
+
+      {/* FINAL CTA */}
+      <h2>Вы можете начать прямо сейчас</h2>
+      <p>
+        Бесплатный доступ позволяет попробовать сервис и понять, подходит ли он
+        вам.
+      </p>
+
+      <a href="https://holdpoint-pwa.vercel.app">
+        <button>Попробовать бесплатно</button>
+      </a>
+    </main>
   );
 }
