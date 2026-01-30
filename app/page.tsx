@@ -99,7 +99,7 @@ export default function LandingPage() {
       width: "100%",
       maxWidth: 400,
       aspectRatio: "1 / 1",
-      background: "url('/images/hero-man.jpg') center/cover no-repeat",
+      background: "url('/images/hero-man.png') center/cover no-repeat",
       borderRadius: 16,
     }}
   ></div>
