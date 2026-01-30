@@ -78,6 +78,54 @@ export default function LandingPage() {
         </p>
       </section>
 
+      {/* ИСТОРИЯ ОТ АВТОРА */}
+      <section
+        style={{
+          marginBottom: 64,
+          padding: 32,
+          background: "#f7f7f7",
+          borderRadius: 12,
+          fontSize: 18,
+          lineHeight: 1.7,
+          maxWidth: 820,
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+      >
+        <h2 style={{ textAlign: "center", marginBottom: 24 }}>От измены до Hold-point</h2>
+        <p>
+          Когда я узнал, что моя жена любит другого, мир вокруг словно рухнул. Сердце сжималось, бессонная ночь тянулась бесконечно. Утром я едва понимал себя — но одно было ясно: если не выговорюсь, внутри всё может сломаться.
+        </p>
+        <p>
+          Моей опорой стала младшая сестра. Она слушала меня днем и ночью, поддерживала словом, а позже и делом, когда речь зашла о юридических вопросах.
+        </p>
+        <p>
+          В какой-то момент я понял: многим мужчинам не хватает такой поддержки, и было бы здорово создать место, где можно выговориться и почувствовать настоящую заботу. Ведь не у каждого есть такая сестра или близкий человек, которому можно открыться.
+        </p>
+        <p>
+          Так возник Hold-point — безопасное пространство, где боль становится чуть легче, а одиночество — немного короче.
+        </p>
+        <p style={{ textAlign: "right", fontStyle: "italic", marginTop: 16 }}>— От автора</p>
+
+        <div style={{ textAlign: "center", marginTop: 32 }}>
+          <a href="https://holdpoint-pwa.vercel.app">
+            <button
+              style={{
+                padding: "16px 36px",
+                fontSize: 16,
+                background: "#111",
+                color: "#fff",
+                border: "none",
+                borderRadius: 8,
+                cursor: "pointer",
+              }}
+            >
+              Попробовать бесплатно
+            </button>
+          </a>
+        </div>
+      </section>
+
       {/* TRUST */}
       <section
         style={{
@@ -191,7 +239,6 @@ export default function LandingPage() {
           <p>Да, дополнительные возможности: консультации психологов, коучей, юристов и расширенные ИИ-ответы.</p>
         </details>
 
-        {/* JSON-LD для FAQ */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
