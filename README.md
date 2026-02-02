@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# HOLD•POINT
 
-## Getting Started
+Анонимная эмоциональная поддержка онлайн,
+когда вам тяжело и нужно выговориться.
 
-First, run the development server:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+# 🧠 Что это?
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+HOLD•POINT — это пространство для спокойного,
+человеческого диалога в сложные жизненные моменты.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Если вас бросили, предали, вы переживаете кризис,
+одиночество или просто не знаете, с кем поговорить —
+здесь можно остановиться и выдохнуть.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
+# Принципы проекта
 
-To learn more about Next.js, take a look at the following resources:
+- Анонимно
+- Без осуждения
+- Без морализаторства
+- Без «псевдотерапии»
+- Человеческий язык
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# 🚫 Важно
 
-## Deploy on Vercel
+HOLD•POINT не является медицинской,
+психологической или юридической помощью.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Сервис не заменяет специалистов,
+а лишь помогает снизить эмоциональное напряжение.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# 🚀 Как начать?
+
+1. **Перейдите на сайт:** https://holdpoint.vercel.app/
+2. Введите email
+3. Подтвердите вход кодом
+4. Начните разговор
+
+
+# 🔐 Конфиденциальность
+
+Мы не продаём данные.
+Мы не собираем лишнюю информацию.
+Мы уважаем личные границы.
+
+
+# 🛠 Технологии
+
+- React + Vite
+- TypeScript
+- OpenRouter (LLM)
+- Resend (email)
+- Supabase (хранение данных)
+- Vercel (деплой)
+
+
+# 🌱 Статус проекта
+
+Проект находится на стадии MVP.
+Мы собираем обратную связь и постепенно улучшаем опыт.
+
+
+# 📩 Контакт
+
+Если вы хотите помочь проекту или оставить отзыв —
+напишите: support@hold-point.ru
