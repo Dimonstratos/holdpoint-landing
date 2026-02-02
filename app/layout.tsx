@@ -2,6 +2,11 @@ import "./globals.css";
 import Script from "next/script";
 
 export const metadata = {
+  icon: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon-16x16.png",
+    apple: "/apple-touch-icon.png",
+  },
   metadataBase: new URL("https://landing.hold-point.ru"),
   title: {
     default: "Hold-point — анонимная поддержка мужчин",
