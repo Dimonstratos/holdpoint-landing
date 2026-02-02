@@ -7,7 +7,17 @@ export const metadata = {
     shortcut: "/favicon-16x16.png",
     apple: "/apple-touch-icon.png",
   },
-  openGraph: {
+  metadataBase: new URL("https://landing.hold-point.ru"),
+  title: {
+    default: "Hold-point — анонимная поддержка мужчин",
+    template: "%s — Hold-point",
+  },
+  description:
+    "Анонимная поддержка мужчин в период развода, измены и эмоционального кризиса.",
+  alternates: {
+    canonical: "https://landing.hold-point.ru",
+  },
+   openGraph: {
     title: "Hold-point — анонимная поддержка мужчин",
     description:
       "Безопасное и анонимное пространство поддержки, когда тяжело после развода или измены.",
@@ -23,16 +33,6 @@ export const metadata = {
     ],
     locale: "ru_RU",
     type: "website",
-  },
-  metadataBase: new URL("https://landing.hold-point.ru"),
-  title: {
-    default: "Hold-point — анонимная поддержка мужчин",
-    template: "%s — Hold-point",
-  },
-  description:
-    "Анонимная поддержка мужчин в период развода, измены и эмоционального кризиса.",
-  alternates: {
-    canonical: "https://landing.hold-point.ru",
   },
 };
 
